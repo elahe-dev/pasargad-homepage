@@ -3,4 +3,4 @@
 ## View and demo site link
 [demo](https://elahe-dev.github.io/pasargad-homepage/)
 ---
-
+![Site view](./img/sc.png)
