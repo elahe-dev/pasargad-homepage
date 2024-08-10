@@ -1,0 +1,411 @@
+@charset "UTF-8";
+  @font-face {
+    font-family: 'nyn05';
+    src: url('nyn05.eot');
+    src: url('nyn05.eot?#iefix') format('embedded-opentype'),
+        url('nyn05.woff2') format('woff2'),
+        url('nyn05.woff') format('woff'),
+        url('nyn05.ttf') format('truetype'),
+        url('nyn05.svg#nyn05') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.nf {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'nyn05' !important;
+  /* speak: none; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-inbox:before {
+  content: "\e95f"; }
+
+.icon-checked:before {
+  content: "\e91c"; }
+
+.icon-jad:before {
+  content: "\e949"; }
+
+.icon-apk:before {
+  content: "\e946"; }
+
+.icon-jar:before {
+  content: "\e947"; }
+
+.icon-java:before {
+  content: "\e948"; }
+
+.icon-main-pasargad_logo .path1:before {
+  content: "\e917";
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path2:before {
+  content: "\e91d";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path3:before {
+  content: "\e91e";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path4:before {
+  content: "\e91f";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path5:before {
+  content: "\e920";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path6:before {
+  content: "\e921";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path7:before {
+  content: "\e922";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path8:before {
+  content: "\e929";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path9:before {
+  content: "\e944";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path10:before {
+  content: "\e94a";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path11:before {
+  content: "\e94b";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path12:before {
+  content: "\e94c";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path13:before {
+  content: "\e94d";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path14:before {
+  content: "\e94e";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path15:before {
+  content: "\e94f";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path16:before {
+  content: "\e950";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path17:before {
+  content: "\e951";
+  margin-left: -0.7744140625em;
+  color: #fecc09; }
+
+.icon-main-pasargad_logo .path18:before {
+  content: "\e952";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path19:before {
+  content: "\e953";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path20:before {
+  content: "\e954";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path21:before {
+  content: "\e955";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path22:before {
+  content: "\e956";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path23:before {
+  content: "\e957";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path24:before {
+  content: "\e958";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path25:before {
+  content: "\e959";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path26:before {
+  content: "\e95a";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path27:before {
+  content: "\e95b";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path28:before {
+  content: "\e95c";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path29:before {
+  content: "\e95d";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-main-pasargad_logo .path30:before {
+  content: "\e95e";
+  margin-left: -0.7744140625em;
+  color: white; }
+
+.icon-pasargad_LOGO:before {
+  content: "\e906"; }
+
+.icon-dnl:before {
+  content: "\e93b"; }
+
+.icon-android:before {
+  content: "\e941"; }
+
+.icon-apple:before {
+  content: "\e942"; }
+
+.icon-windows:before {
+  content: "\e943"; }
+
+.icon-about-4:before {
+  content: "\e945"; }
+
+.icon-about_4:before {
+  content: "\e92f"; }
+
+.icon-about-1:before {
+  content: "\e93f"; }
+
+.icon-about-3:before {
+  content: "\e940"; }
+
+.icon-about-2:before {
+  content: "\e93c"; }
+
+.icon-about-5:before {
+  content: "\e93d"; }
+
+.icon-about-6:before {
+  content: "\e93e"; }
+
+.icon-plus:before {
+  content: "\e939"; }
+
+.icon-plusb:before {
+  content: "\e93a"; }
+
+.icon-bcross:before {
+  content: "\e92a"; }
+
+.icon-cross:before {
+  content: "\e92b"; }
+
+.icon-about_1:before {
+  content: "\e92c"; }
+
+.icon-about_2:before {
+  content: "\e92d"; }
+
+.icon-about_3:before {
+  content: "\e92e"; }
+
+.icon-about_5:before {
+  content: "\e930"; }
+
+.icon-about_6:before {
+  content: "\e931"; }
+
+.icon-address:before {
+  content: "\e932"; }
+
+.icon-fax:before {
+  content: "\e933"; }
+
+.icon-mail:before {
+  content: "\e934"; }
+
+.icon-print:before {
+  content: "\e935"; }
+
+.icon-question:before {
+  content: "\e936"; }
+
+.icon-question_mouse:before {
+  content: "\e937"; }
+
+.icon-tel_small:before {
+  content: "\e938"; }
+
+.icon-mobile_bank:before {
+  content: "\e928"; }
+
+.icon-barcode:before {
+  content: "\e91b"; }
+
+.icon-credit-card:before {
+  content: "\e91a"; }
+
+.icon-file:before {
+  content: "\e919"; }
+
+.icon-line-chart:before {
+  content: "\e918"; }
+
+.icon-magnifier:before {
+  content: "\e904"; }
+
+.icon-menu:before {
+  content: "\e905"; }
+
+.icon-placeholder:before {
+  content: "\e923"; }
+
+.icon-puzzle:before {
+  content: "\e924"; }
+
+.icon-shopping-cart:before {
+  content: "\e925"; }
+
+.icon-smartphone:before {
+  content: "\e926"; }
+
+.icon-tel:before {
+  content: "\e927"; }
+
+.icon-LOGO_g:before {
+  content: "\e900"; }
+
+.icon-LOGO .path1:before {
+  content: "\e901";
+  color: white; }
+
+.icon-LOGO .path2:before {
+  content: "\e902";
+  margin-left: -0.896484375em;
+  color: white; }
+
+.icon-LOGO .path3:before {
+  content: "\e903";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path4:before {
+  content: "\e907";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path5:before {
+  content: "\e908";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path6:before {
+  content: "\e909";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path7:before {
+  content: "\e90a";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path8:before {
+  content: "\e90b";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path9:before {
+  content: "\e90c";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path10:before {
+  content: "\e90d";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path11:before {
+  content: "\e90e";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path12:before {
+  content: "\e90f";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path13:before {
+  content: "\e910";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path14:before {
+  content: "\e911";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path15:before {
+  content: "\e912";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path16:before {
+  content: "\e913";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path17:before {
+  content: "\e914";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path18:before {
+  content: "\e915";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+
+.icon-LOGO .path19:before {
+  content: "\e916";
+  margin-left: -0.896484375em;
+  color: #fdcb0c; }
+

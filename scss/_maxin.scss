@@ -1,0 +1,131 @@
+@mixin for-size($size) {
+  @if $size == xsmall {
+    @media (max-width: 480px) {
+      @content;
+    }
+  }
+  @else if $size == sm {
+    @media (min-width: 481px) and  (max-width: 757px) {
+      @content;
+    }
+  }
+  @else if $size == md {
+    @media (max-width: 900px) {
+      @content;
+    }
+  } @else if $size == lg {
+    @media (min-width: 230px) and (max-width:992px) {
+      @content;
+    }
+  } @else if $size == xlg {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }@else if $size == sm-device {
+    @media (max-width:991px) {
+      @content;
+    }
+  }
+}
+////////////////////////////////////////////
+// @for $i from 1 through 12 {
+//   .sm-col-#{$i} {
+//     @include column($i);
+//   }
+// }
+
+//////////////////////////////////// font size
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+/////////////////////////////////// external font
+// @mixin font-face($font-name, $file-name, $weight: normal, $style: normal) { 
+//   @font-face {
+//     font-family: quote($font-name);
+//     src: url($file-name + '.eot');
+//     src: url($file-name + '.eot?#iefix')  format('embedded-opentype'),
+//          url($file-name + '.woff') format('woff'),
+//          url($file-name + '.ttf')  format('truetype'),
+//          url($file-name + '.svg##{$font-name}')  format('svg');
+//     font-weight: $weight;
+//     font-style: $style;
+//   }
+// }
+/////////////////////////////////////// center
+@mixin center($position) {
+  position: absolute;
+  
+  @if $position == 'vertical' {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  @else if $position == 'horizontal' {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%);
+  }
+  @else if $position == 'both' {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+.foo {
+  @include center(both);
+}
+.foo-parent {
+  position: relative;
+}
+///////////////////////////////////// head line
+@mixin heading-line{
+  display: inline-block;
+  border-top: 1px solid $color-base;
+  h2,h3{
+    @include font-size(16px);
+    font-weight: 600;
+    padding: .7rem 0;
+  }
+}
+//////////////////////////////////// ul style
+@mixin ul-style($font-weight:500) {
+    list-style: none;
+    padding-right: 1.5rem;
+    a{
+      font-weight: $font-weight;
+      &:hover{
+      color: $color-base;
+    }
+  }
+    li{
+      position: relative;
+      padding: .3rem 0;
+      &:before{
+        content: "";
+        position: absolute;
+        background-color: transparent;
+        border-style: solid;
+        border-color: $color-light-gray;
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        right: -20px;
+        top: 10px;
+        border-width: 0 0 2px 2px;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    }
+  
+}
